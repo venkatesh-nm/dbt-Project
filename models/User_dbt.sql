@@ -1,1 +1,1 @@
-select * from DB_ECOMM.sc_ecomm.users
+select * from {{source("prop tb","USERS")}}

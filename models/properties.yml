@@ -1,0 +1,13 @@
+sources:
+  - name: "prop tb"
+    database: DB_ECOMM
+    schema: SC_ECOMM
+    tables:
+      - name: USERS
+models:
+  - name: "user2"
+    config:
+      materialized: 'view'
+  - name: "User_dbt"
+    config:
+      materialized: 'table'
